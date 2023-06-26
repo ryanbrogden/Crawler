@@ -1,0 +1,24 @@
+﻿
+R e a d m e
+-----------
+
+Required components in group.
+* Two Horizontal pistons (upper and lower)
+* vertical pistons (>0)
+* upper merge block (connected to upper piston)
+* upper connector (connected to upper piston)
+* lower merge block (connected to lower piston)
+* lower connector (connected to lower piston)
+* Drills
+* Welder
+
+Custom Data
+[Drill]
+name=<group name>
+
+Status
+
+Connections
+UPPER_CONNECTED: Only the upper connection is currently connected
+LOWER_CONNECTED: Only the lower connection is currently connected
+FULLY_CONNECTED: Both connectors are connected.
